@@ -1,4 +1,4 @@
-# 🔐 Shamir Secret Sharing Scheme
+#  Shamir Secret Sharing Scheme
 
 > Scala implementation of Shamir's Secret Sharing algorithm developed as part of a university team project.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This project implements **Shamir's Secret Sharing (SSS)**, a cryptographic algorithm proposed by Adi Shamir in 1979. The scheme allows a secret to be divided into multiple shares such that:
 
@@ -19,7 +19,7 @@ The implementation uses arithmetic over finite fields and polynomial interpolati
 
 ---
 
-## 🧠 Mathematical Background
+##  Mathematical Background
 
 Given a secret `s`, the algorithm constructs a random polynomial of degree `k - 1`:
 
@@ -54,7 +54,7 @@ To recover the secret, **Lagrange interpolation** is used to evaluate the polyno
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Scala**
 - Functional Programming concepts
@@ -76,7 +76,7 @@ src/
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
 ### Clone the repository
 
@@ -100,7 +100,7 @@ sbt run
 
 ---
 
-## 💻 Example Usage
+##  Example Usage
 
 ### Splitting a secret
 
@@ -131,7 +131,7 @@ Recovered secret: 12345
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The project includes tests and validation procedures to verify that:
 
